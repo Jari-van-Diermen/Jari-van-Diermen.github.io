@@ -31,9 +31,9 @@ knit: pagedown::chrome_print
 ## Contact Info {#contact}
 
 - <i class="fa fa-envelope"></i> [jarivandiermen\@hotmail.com](mailto:jarivandiermen@hotmail.com){.email}
-- <i class="fa fa-github"></i> [github.com/Suirotras](https://github.com/Suirotras)
-- <i class="fa-brands fa-docker"></i> [jarivdiermen](https://hub.docker.com/u/jarivdiermen)
-- <i class="fa-brands fa-linkedin"></i> [jari-van-diermen](https://www.linkedin.com/in/jari-van-diermen-99a49712a/)
+- <i class="fa fa-github"></i> [Github](https://github.com/Jari-van-Diermen)
+- <i class="fa-brands fa-docker"></i> [Docker Hub](https://hub.docker.com/u/jarivdiermen)
+- <i class="fa-brands fa-linkedin"></i> [Linked in](https://www.linkedin.com/in/jari-van-diermen-99a49712a/)
 - <i class="fa fa-phone"></i> +31 653 270 827
 - For more information, please contact me via email.
 
@@ -43,7 +43,6 @@ knit: pagedown::chrome_print
 
 - <i class="fa-solid fa-circle"></i> Fluent Dutch (Native language)
 - <i class="fa-solid fa-circle"></i> Fluent English (C2 level)
-- <i class="fa-solid fa-circle"></i> Basic swedish reading level (A2 reading level)
 
 #### Programming languages
 
@@ -51,7 +50,9 @@ knit: pagedown::chrome_print
 - <i class="fa-solid fa-circle"></i> Python
 - <i class="fa-solid fa-circle"></i> Bash
 - <i class="fa-solid fa-circle"></i> SLURM
+- <i class="fa-solid fa-circle"></i> LaTeX
 - <i class="fa-solid fa-circle"></i> Nextflow
+- <i class="fa-solid fa-circle"></i> Snakemake
 
 # Main
 
@@ -69,13 +70,7 @@ N/A
 
 N/A
 
-I am an enthusiastic aspiring researcher that is passionate about solving
-complex biological questions. To pursue this goal, I want to use new
-computational tools and large-scale omics techniques. Currently developed omics
-techniques allows us to answer exciting biological questions that were out of
-reach not too long ago. Furthermore, I aspire to further develop my
-skills in analyzing, visualizing and interpreting these large omics datasets,
-which is helped by my extensive biological background.
+I am an enthusiastic aspiring bioinformatician with a strong interest in bioinformatics and computational data analysis. I am particularly motivated by the development and application of robust analysis strategies and the integration of large-scale multi-omics datasets. The Omics-field is rapidly changing, with a multitude of methods being developed that allow the exploration of complex biological systems at an unprecedented scale. I am eager to further develop my skills in building, analyzing, integrating, visualizing, and interpreting multi-omics data, supported by my extensive biological background, which allows me to bridge computational methods and biological insight.
 
 ## Education {data-icon="graduation-cap" data-concise="true"}
 
@@ -122,7 +117,26 @@ Hubrecht institute, developmental epigenomics (Jop Kind Group)
 
 Utrecht, The Netherlands
 
-current - 2024/09
+2026/03 - 2024/09
+
+<br>
+
+- Python and R Analysis of single-cell sequencing data from multimodal epigenetic
+methods (i.e. [scDam&T](https://pmc.ncbi.nlm.nih.gov/articles/PMC6609448/),
+[Dam&ChiC](https://pubmed.ncbi.nlm.nih.gov/40640501/)).
+  - Cell Trajectory/pseudotime analysis.
+  - Dataset integration / reference mapping.
+  - Lamina associated domain (LAD) calling.
+  - Differential (i.e. cell-type specific) LAD detection.
+  - single-cell differential gene expression analysis.
+  - Correlating transcriptomic changes with nuclear lamina association.
+- Using public epigenetic sequencing data (i.e. ChIC, CUT&RUN, ChIP-seq).
+- Building single-cell sequencing preprocessing pipelines with snakemake, like
+the [sciT-snakemake pipeline](https://github.com/Jari-van-Diermen/SciT_snakemake).
+- Building R packages, like the
+[LoadSciLooms](https://github.com/Jari-van-Diermen/LoadSciLooms) R package.
+- Presenting data
+- Attending epigenetic and bioinformatics symposia/conferences
 
 ### Research assistant
 
@@ -141,9 +155,10 @@ pipeline
 PAML codeml
 - Experience working with the Linux operating system (Ubuntu, Pop!_OS)
 - Writing paralleled bash and R scripts for the positive selection pipeline
+- Creation of an R-shiny app for 
 - Accessing and working with publicly available single-cell datasets from GTEX
-- Preparing and writing a manuscript for publication
 - Presenting data at lab meetings
+- Creating a publication-ready R-shiny app for presenting manuscript-data
 - Preparing and writing a manuscript for publication
 - Continuation of the research project as a research assistant
 
@@ -220,13 +235,18 @@ N/A
 - Docker
 - Singularity
 - Nextflow
+- Snakemake
 - Git
 - Github
 - Rsudio
+- Visual studio code
 - R
 - Python
 - Bash
-- Anaconda
+- Zsh
+- LaTeX
+- High performance computing (HPC) with SLURM
+- Conda (miniconda, miniforge)
 - HyPhy (aBSREL, MEME)
 - PAML codeml
 - GraphPad Prism 8
