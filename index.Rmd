@@ -22,6 +22,11 @@ knit: pagedown::chrome_print
 .details, .date {
     break-inside: avoid-column;
 }
+
+.allowstrong strong,
+.allowstrong b {
+  font-weight: 700;
+}
 ```
 
 # Aside
@@ -60,17 +65,89 @@ knit: pagedown::chrome_print
 
 ### MSc
 
-## Profile {data-icon="user"}
+## Experience {data-icon="laptop"}
 
-### Personal profile
+### PhD candidate
 
-N/A
+Hubrecht institute, developmental epigenomics (Jop Kind Group)
 
-N/A
+Utrecht, The Netherlands
 
-N/A
+2026/03 - 2024/09
 
-I am an early-career computational biologist with a strong interest in developing solutions for the processing, storage, and visualization of big data. I have experience building computational pipelines for evolutionary analysis as well as for preprocessing various types of single-cell sequencing data. Driven by my interest in the technical aspects of data processing, I am eager to further develop my skills in data engineering and analysis, both within and beyond the biological domain.
+<br>
+
+As a PhD candidate, I conducted research to better understand the fundamental
+principles of genome regulation during development. This taught me how to process,
+analyze and present large amounts of genomics data in HPC environments. Moreover, I developed pipelines
+for preprocessing multimodal genomics data ([sciT-snakemake pipeline](https://github.com/Jari-van-Diermen/SciT_snakemake))
+and an Accompanying R-package ([LoadSciLooms](https://github.com/Jari-van-Diermen/LoadSciLooms)),
+both of which aid the lab in its research efforts.
+
+### Research assistant
+
+Karolinska Institutet, Clinical Neurosciences (Robert Harris Group)
+
+Solna, Sweden
+
+2024/03 - 2023/07
+
+<br>
+
+::: {.allowstrong}
+As a continuation of my work as a research intern, I improved the computational
+pipeline for evolutionary inference with improved parallelization, data cleaning, documentation
+and **Docker containerization** for reproducibility. Additionally, I developed a
+[data dashboard using **R shiny**](https://jari-van-diermen-shiny-app-acomys.share.connect.posit.cloud/)
+to improve exploration of the pipeline results. This allowed me to further improve my **Python**, **R**
+and **Bash** programming expertise 
+:::
+
+### Teaching assistant
+
+Utrecht university, Department of Biology
+
+Utrecht, The Netherlands
+
+2023/05 - 2023/02
+
+<br>
+
+As a teaching assistant for the course `Kwantitatieve biologie (B-B1KWBI20)`,
+I helped first-year biology students grasp statistical concepts and R programming.
+
+### Research intern
+
+Karolinska Institutet, Clinical Neurosciences (Robert Harris Group)
+
+Solna, Sweden
+
+2023/03 - 2022/05
+
+<br>
+
+::: {.allowstrong}
+As a research intern, I have created a computational pipeline that uses evolutionary
+inference to better predict which genes are relevant for the regenerative
+wound-healing in the African Spiny mice. I gained extensive experience in
+**high performance computing (SLURM)**, programming (**R**, **Python** and **Bash**) and
+version control (**Git**, **Github**). Additionally, I learned to present and report my findings.
+:::
+
+### Research intern
+
+Utrecht university, Cell biology, neurobiology and biophysics,
+Anna Akhmanova Group (Cellular dynamics)
+
+Utrecht, The Netherlands
+
+2022/03 - 2021/01
+
+<br>
+
+As a research intern, I studied proteins affecting cellular structure. This
+taught me extensive lab skills, in addition to planning and presenting
+experimental results.
 
 ## Education {data-icon="graduation-cap" data-concise="true"}
 
@@ -82,8 +159,6 @@ Molecular Imaging, Bioinformatics minor profile
 Utrecht, The Netherlands
 
 2023 - 2020
-
-**Final grade: 8.02/10**
 
 Bioinformatics minor profile
 
@@ -104,119 +179,6 @@ Utrecht, The Netherlands
 
 **graduated with honors (cum laude)**
 
-**Final grade: 8.14/10**
-
-Bachelor thesis: Promising molecular targets for therapeutic intervention in
-Alzheimer’s disease
-
-## Research Experience {data-icon="laptop"}
-
-### PhD candidate
-
-Hubrecht institute, developmental epigenomics (Jop Kind Group)
-
-Utrecht, The Netherlands
-
-2026/03 - 2024/09
-
-<br>
-
-- Python and R Analysis of in-house and public single-cell sequencing data from multimodal epigenetic
-methods (i.e. [scDam&T](https://pmc.ncbi.nlm.nih.gov/articles/PMC6609448/),
-[Dam&ChiC](https://pubmed.ncbi.nlm.nih.gov/40640501/)).
-- Building single-cell sequencing preprocessing pipelines with snakemake, like
-the [sciT-snakemake pipeline](https://github.com/Jari-van-Diermen/SciT_snakemake).
-- Building R packages, like the
-[LoadSciLooms](https://github.com/Jari-van-Diermen/LoadSciLooms) R package.
-- Continued experience with High Performance Computing (HPC) environments
-- Conducting independent research
-- Presenting data
-
-### Research assistant
-
-Karolinska Institutet, Clinical Neurosciences (Robert Harris Group)
-
-Solna, Sweden
-
-2024/03 - 2023/07
-
-<br>
-
-- Creating Docker and Singularity containers for the positive selection
-pipeline
-- Using Nextflow to create a portable computational pipeline
-- Working with positive selection tools like HyPhy MEME. HyPhy aBSREL and
-PAML codeml
-- Experience working with the Linux operating system (Ubuntu, Pop!_OS)
-- Writing paralleled bash and R scripts for the positive selection pipeline
-- Accessing and working with publicly available single-cell datasets from GTEX
-- Presenting data at lab meetings
-- Creating a publication-ready R-shiny app for presenting manuscript-data
-- Preparing and writing a manuscript for publication
-- Continuation of the research project as a research assistant
-
-
-### Teaching assistant
-
-Utrecht university, Department of Biology
-
-Utrecht, The Netherlands
-
-2023/05 - 2023/02
-
-<br>
-
-Teaching assistant for the course `Kwantitatieve biologie (B-B1KWBI20)`,
-a quantitative biology course for first year biology students.
-
-### Research intern
-
-Karolinska Institutet, Clinical Neurosciences (Robert Harris Group)
-
-Solna, Sweden
-
-2023/03 - 2022/05
-
-<br>
-
-- Construction of a custom positive selection analysis pipeline for a large number of
-multiple sequence alignments
-- Working with positive selection tools like HyPhy MEME, HyPhy aBSREL and PAML codeml
-- Experience with High performance computing in a SLURM environment
-- Adept programming experience in R, Python and bash
-- Experience with Git and github
-- Working with genomics data
-- Gene ontology analyses
-- Cytoscape and STRINGdb network analysis
-- Creation of data visualizations using R
-- Presenting and writing skills
-- Creation of a scientific poster for a conference
-
-### Research intern
-
-Utrecht university, Cell biology, neurobiology and biophysics,
-Anna Akhmanova Group (Cellular dynamics)
-
-Utrecht, The Netherlands
-
-2022/03 - 2021/01
-
-<br>
-
-- Extensive cell culture with mammalian adherent cell lines (COS7, RPE, HeLa)
-- Molecular cloning with SNAPtag, LEXY, PA-GFP, EB3 constructs
-- Transfections
-- Transformation of *E.coli*
-- Western blots (Semi-dry blotting)
-- PCR
-- Immunofluorescence staining
-- Fluorescence microscopy
-- Expansion microscopy (STED)
-- Live-cell imaging (spinning disk, TIRF)
-- Experiment planning
-- Presenting data
-- General lab skills
-
 ## <i class="fa-solid fa-box-archive"></i> Additional skills {data-icon=NULL}
 
 ### Software skills
@@ -225,413 +187,14 @@ N/A
 
 N/A
 
-- Docker
-- Singularity
-- Nextflow
-- Snakemake
-- Git
-- Github
-- Rsudio
-- Visual studio code
-- R
-- Python
-- Bash
-- Zsh
-- LaTeX
-- Linux (i.e. Debian, Ubuntu)
-- High performance computing (HPC) with SLURM
-- Conda (miniconda, miniforge)
-- HyPhy (aBSREL, MEME)
-- PAML codeml
-- GraphPad Prism 8
-- Fiji/ ImageJ
-- Cytoscape
-
-## Talks and conferences {data-icon="person-chalkboard"}
-
-### Genetic deconvolution of regenerative phenotypes in Acomys cahirinus
-
-Tissue and Motion Conference 2022 (Poster)
-
-Djurhamn, Sweden
-
-2022
-
-**Jacob A. van Diermen**, Sebastian A. Lewandowski, Katarina Tengvall, Michael Dong,
-Kerstin Lindblad-Toh
-
-## Recognition {data-icon="award"}
-
-### Theme winner (Energy) Sustainable campus challenge 2020
-
-Utrecht Challenge Alliance
-
-Utrecht, The Netherlands
-
-2020
-
-<br>
-
-I participated in the sustainable campus challenge 2020 organized by the Utrecht challenge alliance. This is a partnership for open innovation to find regional solutions to social issues in cooperation between companies, public organisations, governments and educational institutions. We were tasked to come up with a concept to reduce the energy usage of student housing and came up with a concept that rewards students for their sustainable behaviour. Our concept was chosen as the best concept to reduce student energy usage.
-
-### Latin honors (Cum laude) for BSc in Biology
-
-Utrecht university, Department of Biology
-
-Utrecht, The Netherlands
-
-2020
-
-## <i class="fa-solid fa-person-chalkboard"></i> MSc Molecular and Cellular life sciences (MCLS) courses {data-icon=NULL .page-break-before}
-
-### Minor Research Project (GSLS-MINRP)
-
-Comparative genomics approach finds DNA-repair and immune-related genes in the regenerative African spiny mouse
-
-Solna, Sweden
-
-2023/03 - 2022/05
-
-*8.6/10*
-
-### Major Research Project (GSLS-MAJRP)
-
-Major Research Project Characterization of CSPP1 interaction with microtubules in cells
-
-Utrecht, The Netherlands
-
-2022/03 - 2021/01
-
-*7.5/10*
-
-### Writing Assignment (Literature Review) (GSLS-WRIAS)
-
-DNA methylation signals in blood as proxies for environmental exposures
-
-Utrecht, The Netherlands
-
-2023
-
-*7.3/10*
-
-### Advanced R for Life Sciences: In-depth Techniques for analysis, visualization and publishing (B-MADR19)
-
-N/A
-
-N/A
-
-2022
-
-*9.7/10*
-
-### Advanced Omics for Life Sciences (BMB502316)
-
-N/A
-
-N/A
-
-2022
-
-*8.5/10*
-
-### Basic Machine Learning for Bioinformatics (B-MBIOBMLB)
-
-N/A
-
-N/A
-
-2022
-
-*8.1/10*
-
-### Introduction to Bioinformatics for Life Sciences (B-MINBI19)
-
-N/A
-
-N/A
-
-2021
-
-*8.6/10*
-
-### Advanced Microscopy (NS-EX423M)
-
-N/A
-
-N/A
-
-2021
-
-*7.9/10*
-
-### Applied Cryo-Electron Microscopy (SK-MCACEM)
-
-N/A
-
-N/A
-
-2021
-
-*8.1/10*
-
-### Master Course Molecules & Cells (SK-MCMC)
-
-N/A
-
-N/A
-
-2020
-
-*7.4/10*
-
-### Master Course Biophysics & Molecular Imaging (SK-MCBMI)
-
-N/A
-
-N/A
-
-2020
-
-*8.6/10*
-
-## <i class="fa-solid fa-person-chalkboard"></i> BSc in Biology courses {data-icon=NULL}
-
-### bachelor thesis Cell biology (B-B3ONSCR)
-
-Promising molecular targets for therapeutic intervention in Alzheimer’s disease
-
-Utrecht, The Netherlands
-
-2020
-
-*8.5/10*
-
-### Research internship cell biology (B-B3ONST)
-
-Modulation of GABAergic transmission via GABA shift timing
-
-Utrecht, The Netherlands
-
-2020
-
-*8.0/10*
-
-### Voortgezette statistiek en 'R' (B-B2VSR)
-
-Advanced statistics and 'R'
-
-N/A
-
-2020
-
-*7.4/10*
-
-### Licht en electronen microscopie (B-B3LEM18)
-
-Light and electron microscopy
-
-N/A
-
-2020
-
-*7.9/10*
-
-### Molecular cell research (B-B3MCR18)
-
-N/A
-
-N/A
-
-2020
-
-*7.9/10*
-
-### Neuronale aandoeningen (B-B3NAAN16)
-
-Neuronal disorders
-
-N/A
-
-2020
-
-*8.1/10*
-
-### Biologische modellering (B-B2THEC05)
-
-Biological modelling
-
-N/A
-
-2019
-
-*8.3/10*
-
-### Cellen en weefsels (B-B3CEWE)
-
-Cells and tissues
-
-N/A
-
-2019
-
-*8.0/10*
-
-### Immunobiologie (B-B3IMMB09)
-
-Immunobiology
-
-N/A
-
-2019
-
-*8.6/10*
-
-### Moleculaire eukaryote microbiologie (B-B3EUKA09)
-
-Molecular eukaryotic microbiology
-
-N/A
-
-2019
-
-*9.7/10*
-
-### De Cel (B-B2CEL09)
-
-The cell
-
-N/A
-
-2019
-
-*8.8/10*
-
-### Data science en biologie (B-B2DSB18)
-
-Data science and biology
-
-N/A
-
-2019
-
-*8.1/10*
-
-### Moleculair genetische onderzoekstechniek (B-B2MGOT14)
-
-Molecular and genetic research techniques
-
-N/A
-
-2019
-
-*7.0/10*
-
-### Ontwikkelingsbiologie (B-B2OBI07)
-
-Developmental biology
-
-N/A
-
-2018
-
-*8.0/10*
-
-### Metabolisme (B-B2META09)
-
-Metabolism
-
-N/A
-
-2018
-
-*8.1/10*
-
-### Neurobiologie (B-B2NEUR10)
-
-Neurobiology
-
-N/A
-
-2018
-
-*8.5/10*
-
-### Biotechnologie en maatschappij (B-B1BIOT09)
-
-Biotechnology and society
-
-N/A
-
-2018
-
-*8.4/10*
-
-### Academisch schrijven (B-B2AS17)
-
-Academical writing
-
-N/A
-
-2018
-
-*7.6/10*
-
-### Experiment en statistiek (B-B1EXST13)
-
-Experiments and statistics
-
-N/A
-
-2018
-
-*8.2/10*
-
-### Systeembiologie (B-B1SYSB09)
-
-Systems biology
-
-N/A
-
-2018
-
-*9.0/10*
-
-### Biologie en ecologie van planten (B-B1BEP13)
-
-Biology and ecology of plants
-
-N/A
-
-2018
-
-*7.8/10*
-
-### Biologie van dieren (B-B1DIER05)
-
-Biology of animals
-
-N/A
-
-2018
-
-*7.3/10*
-
-### Evolutie en biodiversiteit (B-B1EVBI13)
-
-Evolution and biodiversity
-
-N/A
-
-2017
-
-*7.8/10*
-
-### Moleculaire biologie (B-B1MB05)
-
-Molecular biology
-
-N/A
-
-2017
-
-*8.3/10*
+::: {.allowstrong}
+- **Containerization:** Docker, Singularity
+- **Workflow management:** Snakemake, Nextflow
+- **Version control:** Git, Github
+- **Programming:** R, Rstudio, Python, Visual studio code, Bash, Zsh, LaTeX
+- **Package management:** Conda (miniconda, miniforge)
+- **OS:** Linux (i.e. Debian, Ubuntu)
+- **High performance computing (HPC):** SLURM
+- **Evolutionary inference:** HyPhy (aBSREL, MEME), PAML codeml
+- **Image analysis:** Fiji/ ImageJ
+:::
